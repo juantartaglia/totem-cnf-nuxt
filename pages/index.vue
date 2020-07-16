@@ -5,7 +5,6 @@
     align-center
   >
     <v-flex
-    
     >
     <WizardAppoinment></WizardAppoinment>
     </v-flex>
@@ -14,11 +13,11 @@
 
 <script>
 import WizardAppoinment from '~/components/WizardAppoinment.vue'
-import News from '~/components/News.vue'
+
 
 export default {
   components: {
-    WizardAppoinment, News
+    WizardAppoinment
   }
 }
 </script>
